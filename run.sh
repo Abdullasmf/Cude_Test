@@ -7,6 +7,8 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --gres=gpu:1
 #SBATCH --mem-per-cpu=1G
+#SBATCH --account= abdulla.fathalla
+#SBATCH --partition=hpc1-cnb
 #SBATCH --cpus-per-task=4
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --mail-user=fathalla@b-tu.de
